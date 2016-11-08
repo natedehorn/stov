@@ -11,6 +11,12 @@ stov is a Chrome extension that allows users to search Stack Overflow by making 
 
 ## Usage
 
+Using stov is very easy. In the Chrome search bar, type ` stov` followed by a space or tab, and then enter your search criteria.
+
 ` stov [search] `
 
-Using stov is very easy. In the Chrome search bar, type ` stov` followed by a space or tab, and then enter your search criteria.
+Ex: `stov java ppl help me`
+
+You can also search with tags by putting the tag in square brackets.
+
+Ex: `stov [c++] omg help plz`
