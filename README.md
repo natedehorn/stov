@@ -1,19 +1,25 @@
 # stov ![stov](stov.gif)
 
-stov is a Chrome extension that allows users to search Stack Overflow by making use of the Omnibox API. Its goal is to make the process of searching Stack Overflow easy without interupting workflow.
+stov is a browser extension that allows users to search Stack Overflow through the Omnibox
 
 ## Install
 
-1. Clone this repository
-2. Open Chrome
-3. Go to More Tools -> Extensions -> Load Unpacked Extension
-4. Select the repository folder
+1.  Clone repository
+2.  Unpack extension
+  -   For Chrome, go to `More Tools` -> `Extensions` -> `Load Unpacked Extension` -> `Select the "stov_chrome" repository folder`
+  -   For Firefox, `type "about:debugging" in the url bar` -> `Load Temporary Add-on` -> `Select stov.js within the "stov_firefox" repository folder`
+
+## Support Table
+
+| [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/edge.png" alt="IE / Edge" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/firefox.png" alt="Firefox" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome.png" alt="Chrome" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari.png" alt="Safari" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Coming soon | 52+ | 22+ | Coming soon |
 
 ## Usage
 
-Using stov is very easy. In the Chrome search bar, type ` stov` followed by a space or tab, and then enter your search criteria.
+Using stov is very easy. Once installed, type `stov` in the Omnibox (url/search bar), followed by a space or tab, and then enter your search criteria.
 
-` stov [search] `
+`stov [search]`
 
 Ex: `stov java ppl help me`
 
