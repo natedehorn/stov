@@ -1,6 +1,7 @@
 const API_URL = `https://api.stackexchange.com/2.2/search?site=stackoverflow`;
 const QUESTIONS_SOURCE = `https://stackoverflow.com/questions`;
 const SEARCH_URL = `https://stackoverflow.com/search`;
+const API_KEY = `2lAWjs1hbBuRQio*0EUl8Q((`;
 const SQ_BRKTS = /\[(.*?)\]/g;
 const INS_SQ_BRKTS = /[^[\]]+(?=])/g;
 
@@ -43,7 +44,7 @@ function buildSearchURL(input) {
     ? input.match(INS_SQ_BRKTS).join(';')
     : '';
   var intitles = input.replace(SQ_BRKTS, '').trim().replace(' ', ';');
-  return `${API_URL}&sort=votes&tagged=${tags}&intitle=${intitles}`;
+  return `${API_URL}&sort=votes&tagged=${tags}&intitle=${intitles}&key=${API_KEY}`;
 }
 
 function setBasicSuggestion() {
