@@ -63,9 +63,8 @@ function buildSuggestionsFromResponse(response) {
     response.json().then(json => {
       if (json.items) {
         json.items.forEach(({title, link}) => {
-          var elem = document.createElement('textarea');
-          elem.innerHTML = title;
-          suggestions.push({description: `${elem.value}`, content: link});
+          var doc = new DOMParser().parseFromString(title, "text/html");
+          suggestions.push({description: `${doc.documentElement.textContent}`, content: link});
         });
       }
       return suggestions
