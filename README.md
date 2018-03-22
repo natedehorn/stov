@@ -2,6 +2,8 @@
 
 stov is a browser extension that allows users to search Stack Overflow through the Omnibox
 
+https://addons.mozilla.org/en-US/firefox/addon/stov/
+
 ## Install
 
 [Add To Firefox](https://addons.mozilla.org/firefox/downloads/file/899003) (Mozilla Link)
