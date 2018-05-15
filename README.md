@@ -6,8 +6,13 @@ https://addons.mozilla.org/en-US/firefox/addon/stov/
 
 ## Install
 
+### Install from Release
+
 [Add To Firefox](https://addons.mozilla.org/firefox/downloads/file/899003) (Mozilla Link)
 
+[Add To Chrome](https://chrome.google.com/webstore/detail/stack-overflow-search/hljbgiienjodhmbgeppnhoobmjlnkcbl?hl=en-US) (Google Link)
+
+### Install from Local Copy
 1.  Clone repository
 2.  Unpack extension
   -   For Chrome, go to `More Tools` -> `Extensions` -> `Load Unpacked Extension` -> `Select the "stov_chrome" repository folder`
